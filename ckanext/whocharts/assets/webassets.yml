@@ -1,0 +1,14 @@
+# whocharts-js:
+#   filter: rjsmin
+#   output: ckanext-whocharts/%(version)s-whocharts.js
+#   contents:
+#     - js/whocharts.js
+#   extra:
+#     preload:
+#       - base/main
+
+# whocharts-css:
+#   filter: cssrewrite
+#   output: ckanext-whocharts/%(version)s-whocharts.css
+#   contents:
+#     - css/whocharts.css
